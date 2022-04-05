@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q11-Answer</title>
+    <style>
+        table,th,td{
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding:10px;
+            text-align: center;
+            margin:auto;
+        }
+        table{
+            width:60%;
+            margin-top:50px;
+        }
+
+        tr:nth-child(even){
+            background-color: lightgrey;
+        }
+        th{
+            background-color: aquamarine;
+        }
+        h2{
+            text-align: center;
+            margin:auto;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Input Tag with attribute Type in Alphabetical order</h2>
+    <table>
+        <thead>
+            <th style="width:20%">Input Element-Types</th>
+            <th style="width:50%">Types-Display</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="text">Text</label>
+                </td>
+                <td>
+                    <input type="text" value="InputType-text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Button</label>
+                </td>
+                <td>
+                    <input type="button" value="Button">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Content</label>
+                </td>
+                <td>
+                    <input type="content" value="content">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Checkbox</label>
+                </td>
+                <td>
+                    Hobbies:
+                    <input type="checkbox" value="checkbox1">Reading
+                    <input type="checkbox" value="checkbox1">Playing Cricket
+                    <input type="checkbox" value="checkbox1">Dancing
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Color</label>
+                </td>
+                <td>
+                    Pick your Favourite Colour : 
+                    <input type="color" value="color">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Date</label>
+                </td>
+                <td>
+                    Birthday:
+                    <input type="date" value="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Datetime-local</label>
+                </td>
+                <td>
+                    Birthday With Time:
+                    <input type="datetime-local" value="datetime-local">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Email</label>
+                </td>
+                <td>
+                    Gives suggestion like include @
+                    <input type="email" value="premkumar@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">File</label>
+                </td>
+                <td>
+                    Upload a File:
+                    <input type="file" value="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Hidden</label>
+                </td>
+                <td>
+                    Data is not shown to user , but will send when form submits:
+                    <input type="hidden" value="hidden">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Image</label>
+                </td>
+                <td>
+                    Enter Image Url:
+                    <input type="image" src="https://scontent.fhyd2-2.fna.fbcdn.net/v/t39.30808-6/270760639_5326309587396780_994223935301210137_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=103&ccb=1-5&_nc_sid=85a577&_nc_ohc=O3LkmAj0M10AX_yodlr&_nc_ht=scontent.fhyd2-2.fna&oh=00_AT-EhGhDQd12Xv5yUyKthItrSNW68ByU49KqA8saC8kzYg&oe=625052A9" alt="Guvi Image" value="image" width="100px" height="100px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Month</label>
+                </td>
+                <td>
+                    <input type="month" value="month">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Number</label>
+                </td>
+                <td>
+                    <input type="number" value="number" placeholder="1234456">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Password</label>
+                </td>
+                <td>
+                    <input type="password" value="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Radio</label>
+                </td>
+                <td>
+                    <input type="radio" value="radio" name="gender">Male
+                    <input type="radio" value="radio" name="gender">FeMale
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Range</label>
+                </td>
+                <td>
+                    Vloume:
+                    <input type="range" value="range">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Reset</label>
+                </td>
+                <td>
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Search</label>
+                </td>
+                <td>
+                    <input type="search" value="search">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Submit</label>
+                </td>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Tel</label>
+                </td>
+                <td>
+                    <input type="tel" value="987654321">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Time</label>
+                </td>
+                <td>
+                    <input type="time" value="time">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Url</label>
+                </td>
+                <td>
+                    Display your Blog Url:
+                    <input type="url" value="url">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Week</label>
+                </td>
+                <td>
+                    <input type="week" value="week">
+                </td>
+            </tr>
+
+          
+        </tbody>
+    </table>
+</body>
+</html>

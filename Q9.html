@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q9-Answer</title>
+    <style>
+        table,th,td{
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding:10px;
+            text-align: center;
+            margin:auto;
+        }
+        table{
+            width:60%;
+            margin-top:50px;
+        }
+
+        tr:nth-child(even){
+            background-color: lightgrey;
+        }
+        th{
+            background-color: aquamarine;
+        }
+        h2{
+            text-align: center;
+            margin:auto;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <form action="#" method="post">
+        The HTML <form> element can contain one or more of the following form elements:
+
+ 
+            <fieldset>
+            <legend>
+            <datalist>
+            <output>
+            <option>
+            <optgroup>
+    </form> -->
+    <h2>Form Elements</h2>
+    <table>
+        <thead>
+            <th style="width:20%">Form -Elements</th>
+            <th style="width:50%">Display</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="text">Input</label>
+                </td>
+                <td>
+                    Please Enter Input:
+                    <input type="text" value="InputType-text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Label</label>
+                </td>
+                <td>
+                    <label for="text" value="label">For Labelling of inputs</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Select</label>
+                </td>
+                <td>
+                    <label>Choose your City:</label>
+                    <select>
+                        <option value="0"></option>
+                        <option value="1">hyderabad</option>
+                        <option value="2">Pune</option>
+                        <option value="3">Chennai</option>
+                        <option value="4">Banglore</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Textarea</label>
+                </td>
+                <td>
+                    <textarea rows="3" cols="60">PLease enter your comments...</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Button</label>
+                </td>
+                <td>
+                    <button>Button</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Fieldset</label>
+                </td>
+                <td>
+                    To Group the Elements:
+                    <fieldset>
+                        <legend>Legend:</legend>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="John"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                        <input type="submit" value="Submit">
+                      </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Legend</label>
+                </td>
+                <td>
+                    to give caption to the Fieldset:
+                    <legend>Personalia:</legend>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Datalist</label>
+                </td>
+                <td>
+                    Select Your Browser:<input list="browsers" name="browser">
+                    <datalist id="browsers">
+                      <option value="Internet Explorer">
+                      <option value="Firefox">
+                      <option value="Chrome">
+                      <option value="Opera">
+                      <option value="Safari">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Output</label>
+                </td>
+                <td>
+                    Change the input values:
+                    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                        <input type="number" id="a" value="50">
+                        +<input type="number" id="b" value="25">
+                        =<output name="x" for="a b">75</output>
+                      </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Option</label>
+                </td>
+                <td>
+                    <label for="cars">creating options:</label>
+                    <select name="cars" id="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>            
+                        <option value="mercedes">Mercedes</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Optgroup</label>
+                </td>
+                <td>
+                    <label for="cars">To divide the options to group:</label>
+                    <select name="cars" id="cars">
+                      <optgroup label="Swedish Cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                      </optgroup>
+                      <optgroup label="German Cars">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                      </optgroup>
+                    </select>
+                </td>
+            </tr>
+                  
+        </tbody>
+    </table>
+</body>
+</html>
